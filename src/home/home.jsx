@@ -51,11 +51,20 @@ function Home() {
                     </Select>
                 </FormControl>
             </Grid>
-            <Grid item xs={6}>
+            <Grid item xs={2}>
                 <Button variant="contained" onClick={search}>
                     Search
                 </Button>
             </Grid>
+            <Grid item xs={3}>
+                <a href="https://github.com/LuisSosa97/spotify-api-app.git">
+                <Button variant="contained">
+                    GitHub
+                </Button></a>
+            </Grid>
+
+            
+            
             <Grid
                 container
                 spacing={{ xs: 6, md: 3 }}
